@@ -9,3 +9,7 @@ export interface ExampleInterface {
     description?: string;
     createdAt: Date;
 }
+
+export function greet(name: string): string {
+    return `Hello, ${name}!`;
+}
